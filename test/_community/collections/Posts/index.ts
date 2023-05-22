@@ -17,6 +17,7 @@ export const PostsCollection: CollectionConfig = {
       relationTo: 'author',
       hasMany: true,
       required: false,
+      unique: true,
       admin: {
         position: 'sidebar',
         isSortable: false,
